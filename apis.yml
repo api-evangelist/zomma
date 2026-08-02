@@ -1,7 +1,28 @@
 aid: zomma
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zomma.png
 name: Zomma
-description: Zomma is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zomma (Zomma Labs) is a Y Combinator (Summer 2026) startup building AI agents
+  that automate repetitive back-office operations for investment firms — hedge
+  funds, asset managers, and fintech companies. Rather than integrating through
+  traditional APIs, its computer-use agents perceive and operate existing
+  portals, desktop applications, and PDFs the way a human would (clicking,
+  reading, typing) to handle reconciliation, client onboarding, KYC, and
+  investor reporting, with human approval required before any submission. Zomma
+  also markets a developer-facing computer-use API ("plug Hermes, Claude, or
+  your own agent into our API") that is currently waitlist / pre-general
+  availability with no public specification, SDK, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/zomma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- AI Agents
+- Computer Use
+- Automation
+- Fintech
+- Back Office
+- Reconciliation
+- KYC
+- Finance
 apis: []
+common:
+- type: TrustCenter
+  url: security/zomma-trust-center.yml
+- type: Compliance
+  url: https://zommalabs.com/security
+- type: DomainSecurity
+  url: security/zomma-domain-security.yml
+- type: Website
+  url: https://zommalabs.com
+- type: Blog
+  url: https://zommalabs.com/blog
+- type: PrivacyPolicy
+  url: https://zommalabs.com/privacy
+- type: SignUp
+  url: https://zommalabs.com/call
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

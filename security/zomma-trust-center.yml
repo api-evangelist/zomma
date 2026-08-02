@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.zommalabs.com/security
+url: https://www.zommalabs.com/security
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://www.zommalabs.com/security
+  keywords:
+  - soc 2
+  - gdpr
